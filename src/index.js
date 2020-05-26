@@ -1,1 +1,1 @@
-// import './test/TwoSum'
+import './test/TwoSum'

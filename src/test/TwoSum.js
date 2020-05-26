@@ -9,6 +9,7 @@ const calculate = (candidate, target) => {
       if (i !== j && candidate[i] + candidate[j] === target) {
         result.push([nums[i], nums[j]])
         candidate.splice(j, 1)
+        // return Array(nums[i], nums[j])
       }
   }
 
